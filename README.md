@@ -4,7 +4,7 @@ Student Management System With PHP
 This is the demo project on Student Mangement System,
 
 
-# To use this project on your local machine.
+# To run this project on your local machine.
 
 1) install XAMPP
 
@@ -16,8 +16,11 @@ This is the demo project on Student Mangement System,
 
 5) Create a database with the name of "prt547sms", and import the sql file sms.sql into the database server (sms.sql in the foleder "sql").
    
-   You can create your database with any name as u like. Just to remember change in dbcon.php (inside include folder of source code)
+   You can create your database with any name as u like. Just to remember to change ur db name in dbcon.php (inside include folder of source code)
+
+6) Open a new tab in ur web browser, test with this url: http://localhost/PRT547-SMS/index.php
+
    
-Happy Coding
+Happy Coding!
 
 
