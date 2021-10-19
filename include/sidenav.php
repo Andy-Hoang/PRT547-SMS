@@ -16,7 +16,7 @@ $image = $data['image'];
       <div class="background">
         <img src="../images/bg1.jpg" class="responsive-img" alt="">
       </div>
-      <a href="profile.php" class="">
+      <a href="#" class="">
         <img src="../img/<?php
           if (isset($image) && !empty($image)){
             echo $image;
@@ -42,7 +42,7 @@ $image = $data['image'];
         <li>
           <a href="addstudent.php"><i class="material-icons">person_add</i>Add Student</a>
           <a href="#"><i class="material-icons">edit</i>Edit Student</a>
-          <a href="deletestudent.php"><i class="material-icons">delete</i>Delete Student</a>
+          <a href="#"><i class="material-icons">delete</i>Delete Student</a>
           <a href="allstudents.php"><i class="material-icons">groups</i>All Student</a>
         </li>
       </ul>

@@ -33,7 +33,7 @@ require_once('../include/dbcon.php');
       <nav class="teal">
         <div class="container">
           <div class="nav-wrapper">
-            <a href="" class="brand-logo center">Social Learnia</a>
+            <a href="" class="brand-logo center">DIVINE LIGHT Higher Secondary School</a>
             <a href="" class="sidenav-trigger show-on-large" data-target="slide-out"><i class="material-icons">menu</i></a>
           </div>        
         </div>
@@ -44,7 +44,7 @@ require_once('../include/dbcon.php');
 
         <div class="card-panel main">
             <span class="card-title container">
-              <h5>Add Course</h5>
+              <h5>>>> Add Course</h5>
               <h5 class="center red-text"><?php 
               
                 if(isset($course_added_successfully)){
@@ -68,7 +68,7 @@ require_once('../include/dbcon.php');
               </div>
               <div class="input-field">
                 <i class="material-icons prefix">person</i>
-                <input type="text" name="course_date" id="course_date" value="25-04-2019" readonly="readonly" required="required">
+                <input type="text" name="course_date" id="course_date" value="27-10-2021" readonly="readonly" required="required">
                 <label for="course_date" class="">Creation Date</label>
               </div>
               <button type="submit" name="add_course" class="btn" style="width:100%;">Create Course</button>

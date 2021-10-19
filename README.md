@@ -1,20 +1,23 @@
 # sms
-Student Management System With Php
+Student Management System With PHP
 
-This is the basic project on  Student Mangement System,
+This is the demo project on Student Mangement System,
 
-i have developed this project when my collage professor hasn't think to start the lecture on php.
 
-# To use this project.
+# To use this project on your local machine.
 
-1) Create a database with the name of "sms", and import the sql file into the database server which is in sql directory.
-   you can create your database with any name after succesfully create the database, 
+1) install XAMPP
+
+2) locate the XAMPP folder u just installed, place this "PRT547-SMS" sourcecode folder to \xampp\htdocs
+
+3) open XAMPP app, press Start for Apache and MySQL
+
+4) open ur web browser, run this address "http://localhost/phpmyadmin/" to access to MySQL
+
+5) Create a database with the name of "prt547sms", and import the sql file sms.sql into the database server (sms.sql in the foleder "sql").
    
-   Go to include folder and open the dbcon.php file and make change the name of the database name.
+   You can create your database with any name as u like. Just to remember change in dbcon.php (inside include folder of source code)
    
- - Thanks And Happy Coding,
- 
- if you want any helps regarding this or any project,
- 
- mail us at socialcodia@gmail.com
- 
+Happy Coding
+
+
