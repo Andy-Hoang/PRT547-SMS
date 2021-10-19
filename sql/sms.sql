@@ -39,8 +39,8 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `name`, `email`, `password`) VALUES
-(1, 'Umair Farooqui', 'info.mufazmi@gmail.com', 'farooqui'),
-(2, 'Firdos Abbasi', 'firdosfatima.it@gmail.com', 'farooqui');
+(1, 'Andy Hoang', 'andy.hoang@cdu.com', 'andyhoang'),
+(2, 'CDU Admin', 'cdu.admin@cdu.com', 'andyhoang');
 
 -- --------------------------------------------------------
 
@@ -90,30 +90,6 @@ INSERT INTO `follow` (`id`, `to_user_id`, `from_user_id`) VALUES
 (45, 30, 20),
 (46, 40, 20),
 (47, 20, 20);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `followings`
---
-
-CREATE TABLE `followings` (
-  `id` int(11) NOT NULL,
-  `from_user_id` varchar(20) NOT NULL,
-  `to_user_id` varchar(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `follows`
---
-
-CREATE TABLE `follows` (
-  `id` int(11) NOT NULL,
-  `to_user_id` int(20) NOT NULL,
-  `from_user_id` int(20) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -214,8 +190,8 @@ CREATE TABLE `teacher` (
 --
 
 INSERT INTO `teacher` (`id`, `name`, `email`, `contact`, `gender`, `position`, `password`, `address`, `image`) VALUES
-(1, 'Umair Farooqui', 'info.mufazmi@gmail.com', '9867503256', 'male', 'Manager', 'farooqui', 'kausa, mumbra, thane', 'mufazmi.png'),
-(8, 'Firdos Farooqui', 'firdosfatima.it@gmail.com', '7236901464', 'female', 'Head Teacher', 'abbasi', 'Sipah', 'firdos.jpg');
+(1, 'Andy Hoang', 'andy.hoang@cdu.com', '9867503256', 'male', 'Manager', 'andyhoang', 'Darwin city, Darwin, NT', 'user.png'),
+(8, 'CDU Admin', 'cdu.admin@cdu.com', '7236901464', 'female', 'Head Teacher', 'andyhoang', 'Katherine, NT', 'user.png');
 
 --
 -- Indexes for dumped tables
@@ -239,17 +215,6 @@ ALTER TABLE `course`
 ALTER TABLE `follow`
   ADD PRIMARY KEY (`id`);
 
---
--- Indexes for table `followings`
---
-ALTER TABLE `followings`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `follows`
---
-ALTER TABLE `follows`
-  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `posts`
@@ -290,18 +255,6 @@ ALTER TABLE `course`
 --
 ALTER TABLE `follow`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
-
---
--- AUTO_INCREMENT for table `followings`
---
-ALTER TABLE `followings`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `follows`
---
-ALTER TABLE `follows`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `posts`
