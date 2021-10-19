@@ -8,7 +8,7 @@
             <ul class="right">
                 <li class="waves-effect waves-light"><a href="">About Us</a></li>
                 <li class="waves-effect waves-light"><a href="login.php">Staff Login</a></li>
-                <li class="waves-effect waves-light"><a href="students">Student Login</a></li>
+                <li class="waves-effect waves-light"><a href="">Student Login</a></li>
             </ul>
         </div>
     </nav>
