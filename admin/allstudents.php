@@ -16,7 +16,7 @@ $run = mysqli_query($con,$query);
       <nav class="teal">
         <div class="container">
           <div class="nav-wrapper">
-            <a href="" class="brand-logo center">Social Learnia</a>
+            <a href="" class="brand-logo center">DIVINE LIGHT Higher Secondary School</a>
             <a href="" class="sidenav-trigger show-on-large" data-target="slide-out"><i class="material-icons">menu</i></a>
           </div>        
         </div>
@@ -36,7 +36,7 @@ $run = mysqli_query($con,$query);
                                 <th>Student Image</th>
                                 <th>Name</th>
                                 <th>Roll No</th>
-                                <th>Standerd</th>
+                                <th>Standard</th>
                                 <th>Gender</th>
                                 <th>City</th>
                                 <th>Contact</th>

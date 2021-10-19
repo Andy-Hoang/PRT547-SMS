@@ -41,9 +41,9 @@ $image = $data['image'];
       <ul>
         <li>
           <a href="addstudent.php"><i class="material-icons">person_add</i>Add Student</a>
-          <a href="editstudent.php?id=20"><i class="material-icons">edit</i>Edit Student</a>
+          <a href="#"><i class="material-icons">edit</i>Edit Student</a>
           <a href="deletestudent.php"><i class="material-icons">delete</i>Delete Student</a>
-          <a href="allstudents.php"><i class="material-icons">person</i>All Student</a>
+          <a href="allstudents.php"><i class="material-icons">groups</i>All Student</a>
         </li>
       </ul>
     </div>
@@ -57,8 +57,8 @@ $image = $data['image'];
       <ul>
         <li>
           <a href="addteacher.php"><i class="material-icons">group_add</i>Add Teacher</a>
-          <a href="editteacher.php?id=1"><i class="material-icons">edit</i>Edit Teacher</a>
-          <a href=""><i class="material-icons">delete</i>Delete Teachers</a>
+          <a href="#"><i class="material-icons">edit</i>Edit Teacher</a>
+          <a href="#"><i class="material-icons">delete</i>Delete Teachers</a>
           <a href="teachers.php"><i class="material-icons">groups</i>All Teachers</a>
         </li>
       </ul>
